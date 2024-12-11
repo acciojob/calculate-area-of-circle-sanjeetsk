@@ -1,0 +1,4 @@
+{
+  "testRepo": "calculate-area-of-circle-solution",
+  "pathToFile": "cypress/integration/tests/test.spec.js"
+}
