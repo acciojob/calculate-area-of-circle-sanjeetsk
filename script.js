@@ -4,12 +4,6 @@ function calculateArea() {
     // Get the radius from the user using the prompt() function
     let radius = prompt("Enter the radius of the circle:");
 
-    // Validate the input to ensure it's a positive number
-    if (radius === null || radius.trim() === "" || isNaN(radius) || Number(radius) <= 0) {
-        alert("Please enter a valid positive number for the radius.");
-        return;
-    }
-
     // Calculate the area
     radius = Number(radius); // Convert radius to a number
     const area = 3.14 * radius * radius;
